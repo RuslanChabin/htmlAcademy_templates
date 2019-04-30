@@ -115,18 +115,6 @@ module.exports = {
 			filename: 'index.html',
 			template: './pug/index.pug',
 		  }),
-		new HtmlWebpackPlugin({
-			filename: 'news.html',
-			template: './pug/news.pug',
-		  }),
-		new HtmlWebpackPlugin({
-			filename: 'profile.html',
-			template: './pug/profile.pug',
-		  }),
-		new HtmlWebpackPlugin({
-			filename: 'gallery.html',
-			template: './pug/gallery.pug',
-		  }),
 	],
 };
 
